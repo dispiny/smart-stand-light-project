@@ -8,7 +8,7 @@ import time
 
 if __name__ == '__main__':
     # OCR
-    ocr_result = ocr.opencv_image_process('./resources/test/book.jpg', 'kor')
+    ocr_result = ocr.opencv_image_process('./resources/test/kor_text.png', 'kor')
     print(ocr_result)
 
     # Polly

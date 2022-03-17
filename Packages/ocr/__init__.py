@@ -16,8 +16,8 @@ def opencv_image_process(image, lang='kor'):
     
     # gray = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
 
-    #cv2.imshow('image', gray)
-    #cv2.waitKey(0)
-    #cv2.destroyAllWindows()
+    cv2.imshow('image', gray)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
     return ocr_processing(gray, lang)
